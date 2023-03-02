@@ -1,9 +1,11 @@
 package com.spring.example.learnspringframework.game;
 
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 public class Pacman implements GamingConsole{
     @Override
     public void up() {
