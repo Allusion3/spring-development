@@ -5,10 +5,19 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/learn-spring-framework" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/learn-spring-framework-01" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/learn-spring-framework" />
+            <option value="$PROJECT_DIR$/learn-spring-framework-01" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/learn-spring-framework-02" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/learn-spring-framework-02" />
           </set>
         </option>
       </GradleProjectSettings>
