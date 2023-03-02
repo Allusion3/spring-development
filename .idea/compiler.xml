@@ -5,6 +5,7 @@
       <module name="com.spring.example.learn-spring-framework" target="17" />
       <module name="com.spring.example.learn-spring-framework.main" target="17" />
       <module name="com.spring.example.learn-spring-framework.test" target="17" />
+      <module name="learn-spring-framework" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
