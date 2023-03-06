@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/learn-spring-boot" />
+    <file type="web" url="file://$PROJECT_DIR$/learn-spring-boot/learn-spring-boot" />
     <file type="web" url="file://$PROJECT_DIR$/learn-spring-framework" />
     <file type="web" url="file://$PROJECT_DIR$/learn-spring-framework-02" />
     <type id="Spring" />
