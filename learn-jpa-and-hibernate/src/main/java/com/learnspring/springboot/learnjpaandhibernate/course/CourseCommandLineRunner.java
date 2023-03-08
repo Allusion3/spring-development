@@ -27,14 +27,21 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 
     private void runSpringDataJpa() {
         courseSpringDataJpaRepository.save(new Course(1, "Learn AWS NOW JPA", "Jean"));
-        courseSpringDataJpaRepository.save(new Course(2, "Learn Azure JPA", "Y"));
-        courseSpringDataJpaRepository.save(new Course(3, "Learn Gcloud JPA", "X"));
+        courseSpringDataJpaRepository.save(new Course(2, "Learn Azure JPA", "Jean"));
+        courseSpringDataJpaRepository.save(new Course(3, "Learn Gcloud JPA", "Jean"));
         courseSpringDataJpaRepository.save(new Course(4, "Learn gcloud later JPA", "J"));
         courseSpringDataJpaRepository.save(new Course(5, "Learn AWS JPA", "Br"));
         courseSpringDataJpaRepository.deleteById(5L);
 
         System.out.println(courseSpringDataJpaRepository.findById(2L));
         System.out.println(courseSpringDataJpaRepository.findById(3L));
+        System.out.println(courseSpringDataJpaRepository.findAll());
+        System.out.println(courseSpringDataJpaRepository.count());
+
+        System.out.println(courseSpringDataJpaRepository.findByAuthor("Jean"));
+        System.out.println(courseSpringDataJpaRepository.findByName("Learn Azure JPA"));
+
+
 
     }
 
