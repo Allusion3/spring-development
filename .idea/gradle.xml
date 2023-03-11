@@ -5,10 +5,11 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/learn-spring-boot" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/myfirstwebapp" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle/gradle-8.0.2" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/learn-spring-boot" />
+            <option value="$PROJECT_DIR$/myfirstwebapp" />
           </set>
         </option>
       </GradleProjectSettings>

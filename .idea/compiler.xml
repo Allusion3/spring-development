@@ -5,6 +5,12 @@
       <module name="com.spring.example.learn-spring-framework" target="17" />
       <module name="com.spring.example.learn-spring-framework.main" target="17" />
       <module name="com.spring.example.learn-spring-framework.test" target="17" />
+      <module name="learn-jpa-and-hibernate" target="17" />
+      <module name="learn-jpa-and-hibernate.main" target="17" />
+      <module name="learn-jpa-and-hibernate.test" target="17" />
+      <module name="learn-spring-boot" target="17" />
+      <module name="learn-spring-boot.main" target="17" />
+      <module name="learn-spring-boot.test" target="17" />
       <module name="learn-spring-framework" target="17" />
       <module name="learn-spring-framework.main" target="17" />
       <module name="learn-spring-framework.test" target="17" />
